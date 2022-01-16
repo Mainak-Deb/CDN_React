@@ -1,0 +1,31 @@
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80vw;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(87, 87, 87);
+}
+.subbox{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 49%;
+  height: 588px;
+  display:inline-block;
+  margin: 4px;
+  overflow-y: scroll;
+  
+}
+.fontbox{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 10px;
+ 
+}
+textarea{
+  height:100%;
+  width:100%;
+  border-radius: 5px;
+  font-size: 20px;
+}
